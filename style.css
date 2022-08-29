@@ -18,13 +18,17 @@ h1{
     font-family: 'Space Mono', monospace;
 }
 
+
 #imgResize
 {
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 25%;
+    height: auto;
 }
 
 button{
-   
+   background-color: black;
+   color: white;
+   padding: 15px 32px;
+   border-radius: 4px;
     
 }
