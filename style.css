@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Roboto+Condensed:ital@0;1&family=Space+Mono:wght@700&display=swap');
+
+
+#title{
+    font-family: Inconsolata, monospace;
+}
+
+h3
+{
+    font-family: 'Space Mono', monospace;
+}
+
+h2{
+    font-family: 'Space Mono', monospace;
+}
+
+h1{
+    font-family: 'Space Mono', monospace;
+}
+
+#imgResize
+{
+    
+}
+
+button{
+   
+    
+}
