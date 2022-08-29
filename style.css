@@ -7,15 +7,20 @@
 
 h3
 {
+   
     font-family: 'Space Mono', monospace;
+    text-align: right;
+
 }
 
 h2{
     font-family: 'Space Mono', monospace;
+    text-align:  center;
 }
 
 h1{
     font-family: 'Space Mono', monospace;
+    text-align: center;
 }
 
 
@@ -26,6 +31,7 @@ h1{
 }
 
 button{
+   
    background-color: black;
    color: white;
    padding: 15px 32px;
