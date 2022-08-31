@@ -1,21 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Roboto+Condensed:ital@0;1&family=Space+Mono:wght@700&display=swap');
 
 
+body{
+    background: white;
+}
+
 #title{
     font-family: Inconsolata, monospace;
 }
 
-h3
+#description
 {
    
     font-family: 'Space Mono', monospace;
     text-align: right;
+    text-size-adjust: 28px;
 
 }
 
-h2{
+#bad-news{
     font-family: 'Space Mono', monospace;
     text-align:  center;
+    text-size-adjust: 68px;
 }
 
 h1{
@@ -32,9 +38,10 @@ h1{
 
 button{
    
-   background-color: black;
+   background-color: #333333;
    color: white;
    padding: 15px 32px;
-   border-radius: 4px;
+   border-style: none;
+   
     
 }
