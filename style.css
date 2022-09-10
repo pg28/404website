@@ -1,47 +1,107 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Roboto+Condensed:ital@0;1&family=Space+Mono:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400&700;700&family=Roboto+Condensed:ital@0;1&family=Space+Mono:wght@700&display=swap");
 
-
-body{
-    background: white;
+*{
+  margin: 0;
+  border: 0;
+  contain: content;
 }
 
-#title{
-    font-family: Inconsolata, monospace;
+body {
+  background: white;
 }
 
-#description
-{
-   
-    font-family: 'Space Mono', monospace;
-    text-align: right;
-    text-size-adjust: 28px;
-
+#title {
+  font-family: Inconsolata, monospace;
+  text-transform: uppercase;
+  padding: 44px 0px 0px 77px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #333333;
 }
 
-#bad-news{
-    font-family: 'Space Mono', monospace;
-    text-align:  center;
-    text-size-adjust: 68px;
+#description {
+  max-width: 400px;
+  font-family: "Space Mono", normal;
+  font-size: 24px;
+  padding-bottom: 64px;
+  color: #4f4f4f;
 }
 
-h1{
-    font-family: 'Space Mono', monospace;
-    text-align: center;
+#bad-news {
+  font-family: "Space Mono", monospace;
+  font-size: 68px;
+  padding-bottom: 36px;
+}
+
+#imgResize {
+  max-height: 50vh;
+  max-width: 50vw;
+  padding-left: 77px;
+}
+
+.button {
+  background-color: #333333;
+  color: white;
+  padding: 24px 43px;
+  border-style: none;
+  text-transform: uppercase;
+  font-family: Space Mono, bold;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  height: 80vh;
+}
+
+.text {
+  max-width: 650px;
+}
+
+.whole{
+  display: flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  align-items: flex-start;
 }
 
 
-#imgResize
-{
-    max-width: 25%;
-    height: auto;
+
+.info{
+   padding-left: 20px;
 }
 
-#button{
-   
-   background-color: #333333;
-   color: white;
-   padding: 15px 32px;
-   border-style: none;
-   
-    
+.footer{
+  display: flex;
+  justify-content: center;
+  color: #bdbdbd;
+  font-size: 14px;
+  font-family: Montserrat, Mixed;
+  padding-top: 80px;
+}
+
+@media only screen and (max-width: 600px) {
+  #title {
+    padding: 20px 0px 0px 24px;
+    font-size: 24px;
+  }
+  #bad-news{
+    font-size: 48px;
+    padding-bottom: 50px;
+  }
+
+  #description{
+    font-size: 18px;
+    padding-bottom: 50px;
+  }
+
+  #imgResize{
+    padding-left: 0px;
+  }
+
+
+  
 }
