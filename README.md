@@ -71,4 +71,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 - [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
 
 ## Contact
-- GitHub [@PG28](https://{github.com/PG28})
+- GitHub [@PG28](https://github.com/PG28)
